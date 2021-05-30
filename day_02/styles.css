@@ -1,0 +1,21 @@
+body {
+  background: linear-gradient(90deg, #81a1c1 92%, #2e3440 10%);
+}
+
+a {
+  color: #2e3440;
+  text-decoration: #81a1c1;
+}
+
+img {
+  width: 85px;
+  float: right;
+  border-radius: 85px;
+}
+
+.letter {
+  color: #4c566a;
+  font-weight: bolder;
+  font-size: small;
+  text-decoration: red dotted;
+}

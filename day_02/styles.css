@@ -17,5 +17,6 @@ img {
   color: #4c566a;
   font-weight: bolder;
   font-size: small;
+  font-family: "Courier New", Courier, monospace;
   text-decoration: red dotted;
 }

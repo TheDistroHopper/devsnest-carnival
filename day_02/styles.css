@@ -1,5 +1,7 @@
 body {
-  background: linear-gradient(90deg, #81a1c1 92%, #2e3440 10%);
+  text-align: justify;
+  background: url("./bg.jpg");
+  /* background: linear-gradient(90deg, #81a1c1 92%, #2e3440 10%); */
 }
 
 a {
@@ -7,10 +9,8 @@ a {
   text-decoration: #81a1c1;
 }
 
-img {
-  width: 85px;
-  float: right;
-  border-radius: 85px;
+h2 {
+  font-family: "Courier New", Courier, monospace;
 }
 
 .letter {

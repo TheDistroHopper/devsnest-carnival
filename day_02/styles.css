@@ -1,6 +1,8 @@
 body {
+  font-size: 1.3em;
   text-align: justify;
   background: url("./bg.jpg");
+  background-size: 100% 100%;
   /* background: linear-gradient(90deg, #81a1c1 92%, #2e3440 10%); */
 }
 
@@ -16,7 +18,7 @@ h2 {
 .letter {
   color: #4c566a;
   font-weight: bolder;
-  font-size: small;
+  /* font-size: small; */
   font-family: "Courier New", Courier, monospace;
   text-decoration: red dotted;
 }

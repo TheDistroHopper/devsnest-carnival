@@ -6,5 +6,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Arrays Assignment</title>
   </head>
-  <body></body>
+  <body>
+    <div>
+      <code>
+        console.log("\nQuestion 1");
+        <br>function is_array(a) {
+          <br>return Array.isArray(a);
+          <br>}
+<br>console.log(is_array("w3resource"));
+<br>console.log(is_array([1, 2, 4, 0]));
+
+<br>console.log("\nQuestion 2");
+<br>function array_Clone(a) {
+ <br> let arrayCopy = [];
+ <br> if (Array.isArray(a)) {
+ <br>   a.forEach((i) => {
+ <br>     arrayCopy.push(array_Clone(i));
+<br>    });
+<br>  } else return a;
+<br>  return arrayCopy;
+<br>}
+<br>console.log(array_Clone([1, 2, 4, 0]));
+<br>console.log(array_Clone([1, 2, [4, 0]]));
+
+<br>console.log("\nQuestion 3");
+<br>function first(a, n) {
+ <br> if (!n) return a[0];
+ <br> else if (n < 0) return [];
+ <br> return a.slice(0, n);
+<br>}
+<br>console.log(first([7, 9, 0, -2]));
+<br>console.log(first([], 3));
+<br>console.log(first([7, 9, 0, -2], 3));
+<br>console.log(first([7, 9, 0, -2], 6));
+<br>console.log(first([7, 9, 0, -2], -3));
+
+<br>console.log("\nQuestion 4");
+<br>function joinstring(a, separator) {
+<br>  return a.join(separator);
+<br>}
+<br>myColor = ["Red", "Green", "White", "Black"];
+<br>console.log(joinstring(myColor));
+<br>console.log(joinstring(myColor, ","));
+<br>console.log(joinstring(myColor, "+"));
+
+<br>console.log("\nQuestion 5");
+<br>function mostOccuring(a) {
+<br>  let mp = {};
+<br>  let maxf = 0;
+<br>  let maxele;
+<br>  a.forEach((i) => {
+<br>    if (!mp[i]) mp[i] = 1;
+<br>    else mp[i]++;
+<br>    if (maxf < mp[i]) {
+<br>      maxf = mp[i];
+<br>      maxele = i;
+<br>    }
+<br>  });
+<br>  return maxele;
+<br>}
+<br>console.log(mostOccuring([3, "a", "a", "a", 2, 3, "a", 3, "a", 2, 4, 9, 3]));
+
+      </code>
+    </div>
+  </body>
 </html>

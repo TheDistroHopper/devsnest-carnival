@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="./script.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Objects</title>
+  </head>
+  <body>
+    <div>
+      <code>
+        console.log("Q1")<br />
+        const student = { name: "David Rayy", sclass: "VI",rollno:12}; <br />
+        let arr = []; <br />
+        for (let st in student) { <br />
+        arr.push(st); <br />
+        }<br />
+        console.log(arr.join(","));<br />
+        /-----------------------------------------------------------------/;<br />
+        console.log("Q2") <br />
+        const student2 = { name: "David Rayy", sclass: "VI",rollno:12}; <br />
+        delete student2.rollno; <br />
+        console.log(student2);<br />
+        /-----------------------------------------------------------------/;<br />
+        console.log("Q3") <br />
+        let count = 0 <br />
+        for (let i in student) <br />
+        count++;<br />
+        console.log(count);<br />
+        /-----------------------------------------------------------------/;<br />
+        console.log("Q4") <br />
+        const library = [ { author: "Bill Gates", title: "The Road Ahead",
+        readingStatus: true }, { author: "Steve Jobs", title: "Walter Isaacson",
+        readingStatus: true }, { author: "Suzanne Collins", title: "Mockingjay:
+        The Final Book of The Hunger Games", readingStatus: false, }, ]; <br />
+        for (book of library) { <br />
+        console.log("book -",book.title,"\n reading status
+        -",book.readingStatus); <br />
+        }<br />
+        /-----------------------------------------------------------------/;<br />
+        console.log("Q5") const cylinder = { rad: 0, height: 0, volume() {<br />
+        return ((22 / 7) * this.rad * this.rad * this.height).toFixed(4); },
+        };<br />
+        cylinder.rad = 20; cylinder.height = 100;<br />
+        console.log(cylinder.volume());<br />
+        /-----------------------------------------------------------------/;<br />
+        console.log("Q6") <br />
+        const library2 = [ { title: "The Road Ahead", author: "Bill Gates",
+        libraryID: 1254 }, { title: "Walter Isaacson", author: "Steve Jobs",
+        libraryID: 4264 }, { title: "Mockingjay: The Final Book of The Hunger
+        Games", author: "Suzanne Collins", libraryID: 3245, }, title:
+        "Mockingjay: The Final Book of The Hunger Games", author: "Suzanne
+        Collins", libraryID: 9999, }, ]; <br />
+        library2.sort((a, b) => b.libraryID - a.libraryID); <br />
+        console.log(library2);</code
+      >
+    </div>
+  </body>
+</html>

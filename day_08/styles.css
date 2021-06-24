@@ -19,7 +19,6 @@ body {
   .container div {
     width: 20px;
     height: 20px;
-    border: 0.5px solid #;
     border-collapse: collapse;
   
     box-sizing: border-box;

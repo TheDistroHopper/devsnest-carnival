@@ -1,0 +1,82 @@
+[
+  {
+    "question": "Core of Linux operating system is _____",
+    "a": "Shell",
+    "b": "Terminal",
+    "c": "Kernel",
+    "d": "Command",
+    "answer": "c"
+  },
+  {
+    "question": "The Command you use to create Linux file system is _____",
+    "a": "fsck",
+    "b": "mkfs",
+    "c": "mount",
+    "d": "None of the above",
+    "answer": "b"
+  },
+  {
+    "question": "Which of the following directory contains configuration files in Linux?",
+    "a": "/etc/",
+    "b": "/dev/",
+    "c": "/root/",
+    "d": "/bin/",
+    "answer": "a"
+  },
+  {
+    "question": "____ is sponsored by Red Hat.",
+    "a": "Fedora Linux",
+    "b": "SuSE Linux",
+    "c": "Lycoris Linux",
+    "d": "Xandros Linux",
+    "answer": "a"
+  },
+  {
+    "question": "Which command is used to remove files?",
+    "a": "delete",
+    "b": "erase",
+    "c": "dm",
+    "d": "rm",
+    "answer": "d"
+  },
+  {
+    "question": "____ command is used to remove directory.",
+    "a": "rdir",
+    "b": "rd",
+    "c": "rmdir",
+    "d": "None of the above",
+    "answer": "c"
+  },
+  {
+    "question": "How many primary partitions can exist on one drive?",
+    "a": "16",
+    "b": "4",
+    "c": "2",
+    "d": "1",
+    "answer": "b"
+  },
+  {
+    "question": "FSF stands for ___________",
+    "a": "First Serve First",
+    "b": "Free Software File",
+    "c": "Free Software Foundation",
+    "d": "None of the above",
+    "answer": "c"
+  },
+  {
+    "question": "mv command can be used for ",
+    "a": "Renaming a file",
+    "b": "Move as well as rename the file",
+    "c": "Move the file",
+    "d": "None of the above",
+    "answer": "b"
+  },
+  {
+    "question": "Which of the following combination of keys is used to exit the terminal?",
+    "a": "Ctrl + z",
+    "b": "Ctrl + t",
+    "c": "Ctrl + d",
+    "d": "Ctrl + e",
+    "answer": "c"
+  }
+]

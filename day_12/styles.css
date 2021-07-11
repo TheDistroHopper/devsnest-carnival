@@ -30,7 +30,7 @@ ul {
 }
 
 form {
-  padding-top: 20px;
+  padding: 20px 0;
   background-color: #2e3440;
   max-width: 100%;
   width: 400px;

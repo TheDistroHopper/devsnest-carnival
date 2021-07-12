@@ -15,8 +15,8 @@ body {
   height: 40vh;
   width: 40vh;
   background: #2e3440;
-  border: 10px solid #2e3440;
-  border-radius: 10px;
+  border: 1vh solid #2e3440;
+  border-radius: 1vh;
   display: grid;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
@@ -28,7 +28,7 @@ body {
 }
 
 .square {
-  border: 1px solid #2e3440;
+  border: 0.1vh solid #2e3440;
   height: 100%;
   width: 100%;
 }

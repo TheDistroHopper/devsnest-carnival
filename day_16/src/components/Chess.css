@@ -1,9 +1,10 @@
 .Chess {
   height: 40vh;
   width: 40vh;
-  background: black;
+  background: #2e3440;
+  border: 1vh solid #2e3440;
+  border-radius: 1vh;
   display: grid;
-  grid-template: repeat(8, 1fr) / repeat(0, 1fr);
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -14,15 +15,15 @@
 }
 
 .square {
-  border: 1px solid black;
+  border: 0.1vh solid #2e3440;
   height: 100%;
   width: 100%;
 }
 
 .row:nth-child(even) .square:nth-child(even) {
-  background-color: white;
+  background: #d8dee9;
 }
 
 .row:nth-child(odd) .square:nth-child(odd) {
-  background-color: white;
+  background: #d8dee9;
 }

@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #81a1c1;
+}
+
+.App {
+  margin: auto;
+  position: fixed;
+  inset: 0;
+  height: 40vh;
+  width: 40vh;
+  background: #2e3440;
+  border: 10px solid #2e3440;
+  border-radius: 10px;
+  display: grid;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.row {
+  display: flex;
+}
+
+.square {
+  border: 1px solid #2e3440;
+  height: 100%;
+  width: 100%;
+}
+
+.row:nth-child(even) .square:nth-child(even) {
+  background: #d8dee9;
+}
+
+.row:nth-child(odd) .square:nth-child(odd) {
+  background: #d8dee9;
+}

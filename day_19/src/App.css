@@ -16,9 +16,21 @@ body {
 }
 
 button {
-  background: #3b4252;
+  background: #2e3440;
   height: 10vh;
   width: 10vh;
+  font-size: 5vh;
+  margin: 2vh;
+  border: none;
+  border-radius: 5px;
+  color: #d8dee9;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+button:hover {
+  background: #2e3440;
+  height: 10.2vh;
+  width: 10.2vh;
   font-size: 5vh;
   margin: 2vh;
   border: none;

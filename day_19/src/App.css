@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #81a1c1;
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  background: #3b4252;
+  height: 10vh;
+  width: 10vh;
+  font-size: 5vh;
+  margin: 2vh;
+  border: none;
+  border-radius: 5px;
+  color: #d8dee9;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+
+*{
+    margin: 0;
+  }
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: #2e3440;
+  }
+  
+  .container {
+    width: 60vw;
+    height: 60vh;
+    padding: 10px;
+    overflow-y: scroll;
+    border-radius: 10px;
+    background: #4C566A;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  }
+  
+  .component {
+    background-color: #434C5E;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Source Code Pro', monospace;
+    color: #A3BE8C;
+    margin-top: 10px;
+    font-size: small;
+  }

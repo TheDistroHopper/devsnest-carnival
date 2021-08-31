@@ -2,12 +2,17 @@
 ## Setup Redis and PostgreSQL in your local
 
 ### 1. Redis
-#### Redis installation
+#### Installation
+- on Arch
+```bash
+> yay -S redis
+```
+- on Ubuntu
 ```bash
 > sudo apt install redis-server
 ```
 
-#### Start redis
+#### Start service
 ```bash
 > sudo service redis-server start
 > redis-cli
@@ -49,7 +54,12 @@
 <h1></h1>
 
 ### 2. PostgreSQL
-#### PostgreSQL installation
+#### Installation
+- on Arch
+```bash
+> yay -S postgresql
+```
+- on Ubuntu
 ```bash
 > sudo apt install postgresql postgresql-contrib
 ```

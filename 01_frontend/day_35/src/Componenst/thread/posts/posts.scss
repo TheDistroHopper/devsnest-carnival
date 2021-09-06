@@ -1,0 +1,71 @@
+* {
+    font-family: arial;
+  }
+  
+  .container{
+    width: auto;
+    height: auto;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    border-radius: 4px;
+    margin: 30px 0;
+  }
+  
+  .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 12px 10px;
+    border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+  }
+  
+  .top-left {
+    width: 200px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .username {
+    padding-left: 10px;
+  }
+  
+  .pfp {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+  }
+  
+  .fa-ellipsis-v {
+    transform: rotate(90deg);
+    margin: 5px 10px 0;
+  }
+  
+  .img {
+    max-height: auto;
+    max-width: 100%;
+  }
+  
+  img {
+    max-height: auto;
+    max-width: 100%;
+  }
+  .bottom {
+    padding: 5px 10px;
+  }
+  .bottom-menu {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .bottom-left i,
+  .bottom-right i {
+    font-size: 1.5rem;
+    padding: 5px 7px;
+  }
+  
+  .likes {
+    padding: 10px;
+  }
+  
+  .fas.fa-heart{
+    color: red;
+  }

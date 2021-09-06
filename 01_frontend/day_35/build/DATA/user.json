@@ -1,0 +1,22 @@
+[
+    {
+        "username" : "sarveshsp",
+        "profilePicture" : "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Gentoo-logo-dark.svg/1200px-Gentoo-logo-dark.svg.png",
+        "post" : [ "https://picsum.photos/800", "https://picsum.photos/800", "https://picsum.photos/800" , "https://picsum.photos/800" ]
+    },
+    {
+        "username" : "goblin",
+        "profilePicture" : "https://www.logolynx.com/images/logolynx/a8/a87d92cd0660ea28937e2eb24a934ed8.jpeg", 
+        "post" : [ "https://picsum.photos/800", "https://picsum.photos/800", "https://picsum.photos/800" , "https://picsum.photos/800" ]
+    },
+    {
+        "username" : "dhruv",
+        "profilePicture" : "https://e7.pngegg.com/pngimages/492/445/png-clipart-killua-zoldyck-anime-gon-freecss-kakashi-hatake-mangaka-anime-purple-mammal.png",
+        "post" : [ "https://picsum.photos/800", "https://picsum.photos/800", "https://picsum.photos/800" , "https://picsum.photos/800" ]
+    },
+    {
+        "username" : "tanmay",
+        "profilePicture" : "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Archlinux-icon-crystal-64.svg/1200px-Archlinux-icon-crystal-64.svg.png",
+        "post" : [ "https://picsum.photos/800", "https://picsum.photos/800", "https://picsum.photos/800" , "https://picsum.photos/800" ]
+    }
+]
